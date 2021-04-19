@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: {
         index: './index.js',
-        vendor: './vendor.js',
+        vendor: './vendors/vendor.js',
     },
     plugins: [
         // new CopyPlugin({
