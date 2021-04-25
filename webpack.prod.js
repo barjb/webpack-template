@@ -16,7 +16,7 @@ module.exports = merge(common, {
     devtool: 'source-map',
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '[name].[contentHash].css',
+            filename: '[name].[contenthash].css',
         }),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
